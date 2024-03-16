@@ -18,4 +18,30 @@ int main(){ //function declarator
 // cout<<endl; serves the same purpose as cout<<'\n' and it is known as manipulator.
 // cascaded input operation is possible in cpp.
 
+// --------------------------------------------------------------------------------------------------------------------------------->
+
+
+// Scope resolution operator
+
+// when a local variable and a global variable have same name, you can use scope resolution operator '::' to access global variable
+// eg:
+
+#include <iostream>
+int num=20;
+int main(){
+    int num = 10;
+    std::cout<<num<<" "<<::num;
+}
+
+// --------------------------------------------------------------------------------------------------------------------------------->
+
+
+// Alias variable is supported in cpp and it is called as referrence variable.
+
+// int name_of_the_employee
+// int & notp = name_of_the_employee 
+// remember reference variable cannot be initialized and they dont have any new memory location. they have the same memory address of its assigned variable same as a pointer.
+// once the reference is initialized it is bound to the memory address and it is not changed after that.
+
+// --------------------------------------------------------------------------------------------------------------------------------->
 
