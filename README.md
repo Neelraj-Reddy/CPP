@@ -7,3 +7,4 @@ A repo to support my C++ learning journey
 
 - The technique of allocating memory during runtime on demand is known as dynamic memory allocation.
 - new, delete are the two keywords used for dynamic memory allocation in cpp.
+- Member functions inside the body of a class is an inline function by default.
