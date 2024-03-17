@@ -19,15 +19,7 @@
 // Program to print reverse of an number
 
 
-#include<iostream>
 
-int main(){
-    int num;
-    std::cout<< "Enter the num : ";
-    std::cin>> num;
-    
-    
-}
 
 
 
