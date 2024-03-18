@@ -5,20 +5,20 @@ int main(){
     int rows,coloumns;;
     cout<<"Enter no of rows and coloumns : ";
     cin>>rows>>coloumns;
-    // int matrix[rows][coloumns];
-    int matrix[5][5] = {{10,12,7,3,12},
-                {3,10,6,2,8},
-                {18,24,17,6,10},
-                {15,21,10,8,12},
-                {1,18,22,4,15}};
+    int matrix[rows][coloumns];
+    // int matrix[5][5] = {{10,12,7,3,12},
+    //             {3,10,6,2,8},
+    //             {18,24,17,6,10},
+    //             {15,21,10,8,12},
+    //             {1,18,22,4,15}};
 
     cout<<"Enter matrix elements :";
     
-    // for(int i=0;i<rows;i++){
-    //     for(int j=0;j<coloumns;j++){
-    //         cin>>matrix[i][j];
-    //     }
-    // }
+    for(int i=0;i<rows;i++){
+        for(int j=0;j<coloumns;j++){
+            cin>>matrix[i][j];
+        }
+    }
 
     cout<<"Entered matrix is : "<<endl;
 
