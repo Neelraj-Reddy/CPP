@@ -26,8 +26,28 @@ int main(){
             }
         }
 
-        
+        int multiplied_matrix[row1][column2];
 
+        // Calculation part
+
+        for(int i=0; i<row1;i++){
+            for(int j=0;j<column2;j++){
+                int sum=0;
+                for(int k=0;k<column1;k++){
+                    sum+=matrix1[i][k]*matrix2[k][j];
+                }
+                multiplied_matrix[i][j] = sum;
+            }
+        }
+
+        // printing part
+        cout<<"Output matrix : "<<endl;
+        for(int i=0;i<row1;i++){
+            for(int j=0;j<column2;j++){
+                cout<<multiplied_matrix[i][j]<<" ";
+            }
+            cout<<endl;
+        }
 
     }
     else{
